@@ -1,0 +1,21 @@
+{
+  "name": "react-native-intent-module",
+  "version": "0.1.0",
+  "description": "react native intent native module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "intent-module"
+  ],
+  "author": "ljspace <ljspace2mail@gmail.com>",
+  "license": "MIT",
+  "repository": "",
+  "bugs": "",
+  "peerDependencies": {
+    "react-native": ">=0.30"
+  }
+}
