@@ -94,8 +94,8 @@ RCT_EXPORT_METHOD(openScheme:(NSString *)scheme
     scheme=[scheme stringByReplacingOccurrencesOfString:@" " withString:@""];
     UIApplication *application = [UIApplication sharedApplication];
     
-    NSString* encodingString = [scheme stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSURL *URL = [NSURL URLWithString:encodingString];
+    // NSString* encodingString = [scheme stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSURL *URL = [NSURL URLWithString:scheme];
     
     @try {
         if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
